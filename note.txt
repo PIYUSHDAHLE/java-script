@@ -1,0 +1,8 @@
+prompt 
+
+npm init -y
+npm install prompt-sync
+
+add into you code js file below code to require the prompt -sync module:
+
+const prompt = require('prompt-sync')();
