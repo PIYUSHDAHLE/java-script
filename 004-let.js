@@ -3,7 +3,7 @@
 let b = 10;
 
 console.log(`the value of b : ${b}`)
-
+b =500 ;
 {
     let b = 20;
     console.log(`the value of b : ${b}`)
