@@ -15,4 +15,6 @@ let b2='Shyam';
 console.log(`${b1} and ${b2} both are brothers.`);
 
 console.log("brother's")
+
+//escape sequence character
 console.log("brother\"s")
