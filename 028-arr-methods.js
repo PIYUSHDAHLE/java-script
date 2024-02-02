@@ -49,3 +49,6 @@ let arr5 =[10,20,30,40,50,60];
 console.log(arr5);
 console.log('slice(1,3) : ',arr5.slice(1,3))
 console.log("slice(2) : ",arr5.slice(2))  //index no. start from 0,1,2,3,....
+
+arr5.reverse();
+console.log(arr5);
