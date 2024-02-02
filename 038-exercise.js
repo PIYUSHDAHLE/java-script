@@ -1,11 +1,11 @@
-
+//Guess the Number game
 const prompt = require ('prompt-sync')();
 
 let n, chance=0;
 
 let total;
 
-x = Math.floor(Math.random()*4); // 0-3
+x = Math.floor(Math.random()*11); // 0-10
 
 // console.log(x);
 
