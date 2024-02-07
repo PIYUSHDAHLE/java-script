@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Time!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #joke-container {
+            text-align: center;
+        }
+
+        #joke {
+            display: none;
+            font-size: 1.5em;
+            margin-top: 20px;
+        }
+
+        #joke-button {
+            font-size: 1em;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="joke-container">
+        <button id="joke-button" onclick="revealJoke()">Tell me a joke!</button>
+        <p id="joke"></p>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
